@@ -5,11 +5,9 @@ h3 {
 }
 
 .text21 {
-    font-size: 22px;
     text-decoration: underline;
 }
 
 .text {
     font-weight: bold;
-    text-decoration: underline; /* Możesz tutaj dodać podkreślenie dla tekstu "Kaskadowe Arkusze Stylów" */
 }
