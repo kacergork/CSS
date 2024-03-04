@@ -1,12 +1,12 @@
-h5{
+h3{
     color:black;
     size:30px;
     text-decoration: underline;
     font-weight: bold
   }
-p1{
+p{
     size:22px;
-     text-decoration: underline;
-}
-p2{ font-weight: bold}
+    text-decoration: underline;    
+    }
+#tekst{ font-weight: bold}
     
