@@ -3,7 +3,7 @@
      <link rel="Stylesheet" type="text/css" href="Zadanie 1_t2a.css" />
   </head>
   <body>
-    <h2>Sposoby podłączania styli do strony (skrócone zestawienie)</h2>
+    <h2>Sposoby podłączania styli do strony (skrócone zestawienie)</h2><br>
      <p>
     <span class="temat">1)</span> 
     <span class="tematz">Zewnętrzny</span>
@@ -13,6 +13,51 @@
 <head>
   <link rel="Stylesheet" type="text/css" href="style.css" />
 </head>
+    </textarea><br>
+    <p>
+    <span class="temat">2)Styl</span> 
+    <span class="tematz">lokalny</span>
+    <span class="temat"> inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli 
+dopisanie arkusza do wybranego bloku treści strony.</span>
+    </p>
+    <textarea rows="2" cols="50">
+<selektor style="cecha1: wartość1; cecha2: wartość2...">...</selektor>
+    </textarea><br>
+    <p>
+    <span class="temat">3)</span> 
+    <span class="tematz">Wewnętrzny</span>
+    <span class="temat"> arkusz stylów</span>
+    </p>
+    <textarea rows="10" cols="50">
+<head>
+ <style type="text/css">
+   selektor1 { cecha: wartość; cecha2: wartość2... }
+   selektor2 { cecha: wartość; cecha2: wartość2... }
+ </style>
+</head>
+    </textarea><br>
+    <p>
+    <span class="temat">4)</span> 
+    <span class="tematz">Alternatywny</span>
+    <span class="temat"> arkusz stylów</span>
+    </p>
+    <textarea rows="5" cols="50">
+<head>
+  <link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+  <link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+  <link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+
+    </textarea><br>
+    <p>
+    <span class="temat">5)</span> 
+    <span class="tematz">Import</span>
+    <span class="temat"> arkusza stylów</span>
+    </p>
+    <textarea rows="4" cols="50">
+<style type="text/css">
+ @import url(adres zewnętrznego arkusza stylów);
+</style>
     </textarea>
   </body>
 </html>
