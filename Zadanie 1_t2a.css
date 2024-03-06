@@ -1,12 +1,13 @@
 h4{
-  font-weight: bold
+  font-weight: bold;
 }
 .temat{
   font-weight: bold;
-  size:22px
+  size:22px;
 }
 .tematz{
   font-weight: bold;
-  size:22px
+  size:22px;
+  text-decoration: underline;
 }
   
