@@ -1,7 +1,4 @@
-p{
-  color: orange;
-  font-size: 20pt;
-  font-family: Arial;
+
 i{
   color: green;
   font-size: 20pt;
@@ -28,6 +25,9 @@ h1{
   background-color: #FFFDD0;
   width: 100%;
   height: 40%;
+  color: orange;
+  font-size: 20pt;
+  font-family: Arial;
 }
 .second{
   background-color: #FF00FF;
