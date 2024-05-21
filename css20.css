@@ -24,6 +24,19 @@ h1{
   font-size: 30pt;
   text-decoration: underline;
 }
-
+.first{
+  background-color: #FFFDD0;
+  width: 100%;
+  height: 40%;
+}
+.second{
+  background-color: #FF00FF;
+  width: 80%;
+  height: 15%;
+}
+.third{
+  background-color: #C0D727;
+  width: 100%;
+  height: 30%;
   
   
