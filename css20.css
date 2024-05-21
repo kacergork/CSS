@@ -1,1 +1,29 @@
+p{
+  color: orange;
+  font-size: 20pt;
+  font-family: Arial;
+i{
+  color: green;
+  font-size: 20pt;
+  font-weight: bold;
+}
+  strike{
+    text-decoration: line-through;
+    color: red;
+    font-size: 20pt;
+  }
+u{
+  text-decoration: underline;
+  color: purple;
+  font-size: 20pt;
+  text-decoration: overline;
+}
 
+h1{
+  color: blue;
+  font-size: 30pt;
+  text-decoration: underline;
+}
+
+  
+  
